@@ -1,50 +1,41 @@
 # Maven Market Analysis Dashboard
 
-Welcome to the Maven Market Analysis Dashboard, a powerful business intelligence tool designed to provide in-depth insights into market performance and trends. This dashboard, created with Power BI, is tailored for market analysts, business owners, and data enthusiasts looking to track key performance indicators (KPIs) and make data-driven decisions.
+### Project Overview
+This project focuses on analyzing the operations and customer behavior of Maven Market, a multinational grocery chain operating across Canada, Mexico, and the United States. The primary objective was to generate actionable insights to optimize inventory management, refine marketing strategies, and enhance overall business performance. The analysis leveraged multiple data sources, including sales transactions and customer demographics, to support data-driven decision-making.
 
-**Data Integration:** Leveraged Power Query to integrate and refine data from diverse sources for dashboard use.
 
-**Data Transformation and Preparation:** Employed M Code within Power Query for advanced data transformation and preparation.
+### Methodology
+#### 1. Data Integration and Preparation
+Data was collected from various sources such as sales, returns, customer records, inventory, and store information. ETL (Extract, Transform, Load) processes were applied to clean, transform, and consolidate the data into a unified structure. Data quality was ensured by addressing missing values, removing duplicates, and resolving inconsistencies.
 
-**Data Analysis:** Utilized DAX (Data Analysis Expressions) for complex calculations and data analysis within Power BI.
 
-**Data Visualization:** Designed interactive data visualizations for insightful reporting and decision-making.
+#### 2. Relational Data Modeling
+A relational database model was developed to efficiently organize and manage the integrated data. Key tables were created for customers, products, transactions, and inventory, with well-defined relationships established to ensure data integrity and enable seamless analysis.
 
-# Key Features
+#### 3. Creation of Calculated Metrics
+Calculated fields were introduced using Data Analysis Expressions (DAX) to derive meaningful business insights. Key performance indicators such as total revenue, total profit, and product popularity were computed to support strategic decision-making.
 
-**1. KPI Tracking:** Monitor crucial metrics like total transactions, profits, and returns, with goals and current status visually compared for immediate analysis.
+#### 4.Interactive Dashboard Development
+An interactive reporting dashboard was designed to present insights in a clear and engaging manner. Visual elements such as charts and graphs were used to enhance data interpretation, while user-friendly navigation features enabled stakeholders to explore and customize the reports effectively.
 
-            Total Transactions: Track the number of sales transactions, providing insights into sales volume.
-            Total Profit: Monitor profit generated, essential for evaluating financial health.
-            Profit Margin: Understand the profitability of products to focus on the most beneficial offerings.
-            Return Rate: Analyze the rate of returned products, a critical factor for product quality and customer satisfaction. 
 
-**2. Product Performance:** Analyze product lines with detailed metrics such as total sales, total profit, profit margin, and return rate.
+### Report
+#### 1. Topline Performance:
+<p align="center" width="100%"><img width="575" alt="mm1" src="https://github.com/saraimdad/mavenmarket-analysis/assets/157117492/e1b6c63a-7139-429e-8d4a-763116a9121d"></p>
+This page provides a comprehensive overview of Maven Market's performance metrics for the current month. It showcases key indicators such as profit, transactions, and returns, alongside insightful data on customer demographics and order distribution. Additionally, it highlights the top 30 brands for inventory restocking, tracks the weekly revenue trend, and compares actual revenue against predetermined targets, facilitating strategic adjustments for optimal performance and decision-making.
+  
+#### 2. Drillthrough Product Details:
+<p align="center" width="100%"><img width="575" alt="mm2" src="https://github.com/saraimdad/mavenmarket-analysis/assets/157117492/507e1b8d-24df-4a4f-ac07-1696b046c4f3"></p>
+The Drillthrough Product Details page provides users with a deep dive into comprehensive product information. Users can analyze product sales trends, targets, and pricing dynamics using the product metrics selection slicer, which enables customization based on specific metrics of interest. Additionally, the price range slicer allows users to toggle between different price ranges to identify optimal pricing strategies that maximize profit margins. This page empowers users to make data-driven decisions by offering detailed insights into product performance and pricing dynamics.
 
-**3. Geographic Sales Data:** Get a clear visual of market penetration with an interactive map detailing sales distribution across North America.
+#### 3. Customer Details:
+<p align="center" width="100%"><img width="574" alt="mm3" src="https://github.com/saraimdad/mavenmarket-analysis/assets/157117492/f4b3b750-a72c-4989-ba9c-e0af940ab5f0"></p>
+The Customer Details page offers comprehensive insights into customer demographics, purchasing behavior, and loyalty patterns. Users can explore customer segmentation based on location, occupation, and yearly income to understand buying preferences and tailor marketing strategies accordingly. Additionally, the page provides information on the top 100 customers ranked by revenue, enabling targeted engagement and personalized offerings to enhance customer satisfaction and loyalty. By leveraging these insights, businesses can optimize customer relationships and drive sustainable growth.
 
-            Sales Distribution Map: Visualize sales distribution across North America, with the ability to drill down by country, providing a clear picture of regional market performance.
 
-**4. Time Series Analysis:** Understand weekly revenue trends to identify seasonal patterns or the impact of specific campaigns.
+### Tools
+- Microsoft Power BI
 
-**5. Revenue Targets:** Evaluate performance against targets with visual indicators to instantly recognize over or underachievement.
 
-            Revenue vs Target: Set financial targets and track ongoing performance against these goals, a key metric for growth and performance assessment.
-
-# Performance Notes Section
-
-To assist with month-end analysis and strategic planning, the dashboard includes a 'Performance Notes' section, capturing key observations such as:
-
-**1. Sales Milestones:** Notable achievements like Portland reaching 1,000 sales in a month.
-
-**2. Product Returns:** Changes in return rates, for example, the doubling of High Top product returns in Mexico.
-
-**3. Profit Margin Leaders:** Highlighting products like Plato that have driven strong profit margins.
-
-# Usage
-Designed for business analysts, sales managers, and data enthusiasts, this dashboard provides a user-friendly interface with customizable options to cater to specific analysis needs.
-
-The Maven Market Analysis Dashboard is a versatile tool designed for flexibility and depth. Users can slice and dice the data to uncover underlying trends, validate business strategies, and predict future performance.
-
-# Feedback and Collaboration
-Feedback is essential for continuous improvement. Please submit your feedback through GitHub issues or pull requests. Let's collaborate to refine and enhance the analytical capabilities of this dashboard.
+### Conclusion
+The data analysis project has yielded valuable insights into the operations and customer behavior of Maven Market. By leveraging data-driven decision-making, Maven Market is well-positioned to optimize inventory management, enhance marketing strategies, and drive overall business growth. The interactive reports developed as part of this project provide a powerful tool for stakeholders to extract actionable insights and drive informed decision-making. Moving forward, continuous monitoring and analysis of data will be essential to maintain competitiveness and adapt to evolving market dynamics.
